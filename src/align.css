@@ -1,8 +1,3 @@
-.centered {
-	align-items: center;
-	justify-content: center;
-}
-
 .line {
 	display: flex;
 }
@@ -28,4 +23,25 @@
 }
 .column.v-centered {
 	justify-content: center;
+}
+
+/* Modifiers to container */
+.around {
+	justify-content: space-around;
+}
+.between {
+	justify-content: space-between;
+}
+.centered {
+	align-items: center;
+	justify-content: center;
+}
+.end {
+	justify-content: flex-end;
+}
+.evenly {
+	justify-content: space-evenly;
+}
+.start {
+	justify-content: flex-start;
 }
