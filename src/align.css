@@ -1,0 +1,31 @@
+.centered {
+	align-items: center;
+	justify-content: center;
+}
+
+.line {
+	display: flex;
+}
+.line.reverse {
+	flex-direction: row-reverse;
+}
+.line.h-centered {
+	justify-content: center;
+}
+.line.v-centered {
+	align-items: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+.column.reverse {
+	flex-direction: column-reverse;
+}
+.column.h-centered {
+	align-items: center;
+}
+.column.v-centered {
+	justify-content: center;
+}
