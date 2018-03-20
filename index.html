@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="dist/align.min.css">
+	<style>
+		html {
+			box-sizing: border-box;
+		}
+		*,
+		*:before,
+		*:after {
+			box-sizing: inherit;
+		}
+		html,
+		body {
+			background: #f4f4f4;
+			font-family: sans-serif;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+		.container {
+			max-width: 85%;
+			margin: 0 auto;
+		}
+		h1 {
+			margin: 15px 0;
+		}
+		h2, h3, h4, h5, h6 {
+			margin: 0;
+		}
+		code {
+			background: white;
+			padding: 5px;
+		}
+		.sample-line {
+			background: #4DB6AC;
+			color: white;
+			height: 35px;
+			margin: 10px 0;
+		}
+		.sample-column {
+			background: #AED581;
+			color: white;
+			height: 150px;
+			margin: 10px 0;
+		}
+		.box {
+			background: white;
+			color: black;
+			height: 20px;
+			width: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Flex direction: row</h1>
+		<h3>Justified to start <code>.line or .line.start</code></h3>
+		<div class="sample-line line start">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Justified to end <code>.line.end</code></h3>
+		<div class="sample-line line end">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Horizontally centered <code>.line.h-centered</code></h3>
+		<div class="sample-line line h-centered">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Spaced between <code>.line.between</code></h3>
+		<div class="sample-line line between">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Spaced around <code>.line.around</code></h3>
+		<div class="sample-line line around">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Spaced evenly <code>.line.evenly</code></h3>
+		<div class="sample-line line evenly">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Totally centered <code>.line.centered</code></h3>
+		<div class="sample-line line centered">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Reversed <code>.line.reverse</code></h3>
+		<div class="sample-line line reverse">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<!-- -->
+		<h1>Flex direction: column</h1>
+		<h3>Justified to start <code>.column or .column.start</code></h3>
+		<div class="sample-column column start">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Justified to end <code>.column.end</code></h3>
+		<div class="sample-column column end">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Horizontally centered <code>.column.h-centered</code></h3>
+		<div class="sample-column column h-centered">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Spaced between <code>.column.between</code></h3>
+		<div class="sample-column column between">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Spaced around <code>.column.around</code></h3>
+		<div class="sample-column column around">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Spaced evenly <code>.column.evenly</code></h3>
+		<div class="sample-column column evenly">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Totally centered <code>.column.centered</code></h3>
+		<div class="sample-column column centered">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+		<h3>Reversed <code>.column.reverse</code></h3>
+		<div class="sample-column column reverse">
+			<div class="box column centered">1</div>
+			<div class="box column centered">2</div>
+			<div class="box column centered">3</div>
+			<div class="box column centered">4</div>
+			<div class="box column centered">5</div>
+		</div>
+	</div>
+</body>
+</html>
