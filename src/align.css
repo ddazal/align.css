@@ -5,12 +5,6 @@
 .line.reverse {
 	flex-direction: row-reverse;
 }
-.line.h-centered {
-	justify-content: center;
-}
-.line.v-centered {
-	align-items: center;
-}
 
 .column {
 	display: flex;
@@ -20,30 +14,65 @@
 .column.reverse {
 	flex-direction: column-reverse;
 }
+
+/* Center content*/
+.line.h-centered {
+	justify-content: center;
+}
+.line.v-centered {
+	align-items: center;
+}
 .column.h-centered {
 	align-items: center;
 }
 .column.v-centered {
 	justify-content: center;
 }
-
-/* Modifiers to container */
-.around {
-	justify-content: space-around;
-}
-.between {
-	justify-content: space-between;
-}
 .centered {
 	align-items: center;
 	justify-content: center;
 }
-.end {
+
+/* Modifiers to container main axis */
+.justify-around {
+	justify-content: space-around;
+}
+.justify-between {
+	justify-content: space-between;
+}
+.justify-end {
 	justify-content: flex-end;
 }
-.evenly {
+.justify-evenly {
 	justify-content: space-evenly;
 }
-.start {
+.justify-start {
 	justify-content: flex-start;
+}
+
+/* Modifiers to container cross axiss */
+.align-start {
+	align-items: flex-start;
+}
+.align-end {
+	align-items: flex-end;
+}
+
+/* General modifiers to container */
+.nowrap {
+	flex-wrap: nowrap;
+}
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+/* Modifiers to children */
+.item-center {
+	align-self: center;
+}
+.item-end {
+	align-self: flex-end;
+}
+.item-start {
+	align-self: flex-start;
 }
