@@ -17,9 +17,14 @@
     "postcss-cssnext": "^3.1.0",
     "pump": "^3.0.0"
   },
+  "bugs": {
+    "url" : "https://github.com/ddazal/align.css/issues",
+    "email" : "03dazal@gmail.com"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [ "css", "flexbox", "alignment" ]
 }
