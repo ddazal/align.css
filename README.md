@@ -1,6 +1,8 @@
 # Align.css
 This stylesheet is made for align items within a container accordingly with the [flexbox spec](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout). It's not meant for building complex layouts.
 
+You can use it by pointing to this url `https://cdn.jsdelivr.net/gh/ddazal/align.css/dist/align.min.css`
+
 ## Container classes
 
 | Class name | Description               |
