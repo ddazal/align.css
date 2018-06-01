@@ -39,4 +39,4 @@ By default, the container is allowed to wrap its children if their size exceed t
 | item-end    | Align this item at the end of the perpendicular direction of the container    |
 | item-fill   | Make this item to take the remaining space                                    |
 
-The `index.html` file contains an example for each of the classes listed above. Also this [pen](https://codepen.io/ddazal/pen/rdmObw).
+This [pen](https://codepen.io/ddazal/pen/rdmObw) contains an example for each of the classes listed above.
