@@ -8,7 +8,6 @@
 
 .column {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 }
 .column.reverse {
@@ -59,6 +58,9 @@
 }
 
 /* General modifiers to container */
+.wrap {
+	flex-wrap: wrap;
+}
 .nowrap {
 	flex-wrap: nowrap;
 }
